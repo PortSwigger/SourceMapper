@@ -26,9 +26,8 @@ Once this is done, visit your target web application, open the developer tools a
 Debug output is currently sent to the SourceMapper pane within the extensions tab under "Output".
 
 ## Known issues
-* Source maps can be applied to JavaScript and CSS files.  This extension currently only deals with JavaScript files.
 * Weird character sets in the map files can cause weird effects.  For this reason the extension attempts to "flatten" weird chars back into standard ASCII so that they can be converted into the relevant bytearray / array types for use by Burp.  In practice this shouldn't impact the user, but, occasionally it won't convert weird characters in an expected fashion which can leak to presentational oddities.  There is probably a better way to handle this, but, it works.
 
 ## Credits
 
-The extension was written by Felix Ryan of You Gotta Hack That, but as always, Pete was a brave and noble duck.  Thank you for your help!
+The extension was written by Felix of You Gotta Hack That, but as always, Pete was a brave and noble duck.  Further development work was performed by Mia also of YGHT.  Thank you both for your help!
